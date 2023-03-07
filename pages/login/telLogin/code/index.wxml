@@ -1,0 +1,15 @@
+<!--pages/login/telLogin/code/index.wxml-->
+<view class="main">
+  <view class="texts">
+    <view class="title">
+      输入短信验证码
+    </view>
+    <view class="text-content">
+      验证码已发送至{{phoneNumberText}} 请在下方输入6位验证码
+    </view>
+  </view>
+  <t-input placeholder="请输入6位验证码" bind:change="getInput" maxlength="6" type="number" t-class="ipt" />
+  <view bindtap="sendLoginCodeAgain" class="sendLoginCodeAgain">
+    {{codeData.isCountDown?"重新发送":codeData.time+'秒后重新获取'}}
+  </view>
+</view>

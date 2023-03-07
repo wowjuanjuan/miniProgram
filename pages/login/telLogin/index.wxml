@@ -1,0 +1,15 @@
+<!--pages/login/telLogin/index.wxml-->
+<view class="main">
+  <view class="title-sub">Hi,欢迎来到星裂</view>
+  <view class="ipts">
+    <t-input placeholder="请输入手机号码" value="{{formData.mobile}}" bind:change="getTelInput" maxlength="11" type="number" />
+    <view class="verifyCode">
+      <t-input class="verifyCode-ipt" placeholder="请输入正确的验证码" value="{{formData.verifyCode}}" bind:change="getCodeInput" maxlength="4" custom-style="test" />
+      <view class="verifyCode-img-wrap" bindtap="getLoginCode">
+        <image class="verifyCode-img" src="{{codeSrc}}" mode="" />
+      </view>
+    </view>
+  </view>
+  <t-button theme="primary" size="large" block t-class="submit-button{{isDisabled ? '' : '-disabled'}}" loading="{{isSending}}" bindtap="handleSendSms">登录</t-button>
+</view>
+<t-toast id="t-toast" />

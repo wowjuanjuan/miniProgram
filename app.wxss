@@ -1,0 +1,5 @@
+@import 'style/iconfont.wxss';
+@import 'style/theme.wxss';
+page {
+  background-color: #f2f9f5;
+}

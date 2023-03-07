@@ -1,0 +1,12 @@
+/* pages/login/login.wxss */
+.btns {
+  margin-top: 150rpx;
+  /* background-color: aqua; */
+}
+
+.btn {
+  width: 90% !important;
+  margin-top: 100rpx;
+  background-color: #249E58 !important;
+  border: 0 !important;
+}

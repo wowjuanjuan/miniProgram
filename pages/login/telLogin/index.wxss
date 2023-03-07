@@ -1,0 +1,79 @@
+/* pages/login/telLogin/index.wxss */
+page {
+  /* background-color: aqua !important; */
+}
+
+.main {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+
+}
+
+.ipts {
+  margin-top: 15%;
+}
+
+.title-sub {
+  margin-top: 10%;
+  color: #333;
+  font-size: large;
+  font-weight: bold;
+}
+
+.submit-button {
+  margin-top: 50rpx;
+  background-color: #249E58 !important;
+  font-size: medium !important;
+  border: 0 !important;
+  opacity: .5;
+}
+
+.submit-button-disabled {
+  margin-top: 50rpx;
+  background-color: #249E58 !important;
+  font-size: medium !important;
+  border: 0 !important;
+}
+
+/* .t-icon__image {
+  position: relative;
+  left: -100rpx;
+  width: 162rpx !important;
+  height: 50rpx !important;
+} */
+
+.verifyCode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.verifyCode-img {
+  width: 288rpx;
+  /* height: 50rpx; */
+  height: 90rpx;
+
+  /* height: 100%; */
+  /* background-color: darkgreen; */
+}
+
+.verifyCode-img-wrap {
+  /* width: 400rpx; */
+  /* width: 100%; */
+  /* padding-top: 2rpx; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: darkgreen; */
+}
+
+/* .verifyCode-ipt .t-input__wrap {
+  width: 100rpx !important;
+} */
+
+.verifyCode-ipt {
+  width: 100rpx;
+  flex: 1;
+}

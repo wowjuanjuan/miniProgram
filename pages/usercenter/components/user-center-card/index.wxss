@@ -1,0 +1,69 @@
+.user-center-card {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  height: 240rpx;
+  /* background-image: url('https://cdn-we-retail.ym.tencent.com/miniapp/template/user-center-bg-v1.png'); */
+  background-color: #249E58;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 0 24rpx; */
+}
+
+.user-center-card__header {
+  /* margin-top: 192rpx; */
+  /* margin-bottom: 48rpx; */
+  /* height: 96rpx; */
+  /* line-height: 48rpx; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  /* position: relative; */
+}
+
+.user-center-card__header__avatar {
+  width: 120rpx;
+  height: 120rpx;
+  /* border-radius: 48rpx; */
+  /* overflow: hidden; */
+}
+
+.t-avatar--circle {}
+
+/* .avatar {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.t-image {
+  width: 120rpx !important;
+  height: 120rpx !important;
+} */
+
+.user-center-card__header__name {
+  font-size: 32rpx;
+  /* line-height: 48rpx; */
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 48rpx;
+  opacity: .9;
+  /* font-weight: bold; */
+}
+
+.user-center-card__header__transparent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+
+.user-center-card__icon {
+  line-height: 96rpx;
+}

@@ -1,0 +1,33 @@
+/* pages/login/telLogin/code/index.wxss */
+page {}
+
+.main {
+  padding: 0 20rpx;
+}
+
+.texts {
+  margin-top: 50rpx;
+}
+
+.title {
+  font-size: large;
+}
+
+.text-content {
+  margin-top: 10rpx;
+  font-size: small;
+  opacity: .5;
+}
+
+.ipt {
+  margin-top: 100rpx !important;
+}
+
+.test {
+  color: aqua;
+}
+
+.sendLoginCodeAgain {
+  margin-top: 20rpx;
+  font-size: small;
+}
